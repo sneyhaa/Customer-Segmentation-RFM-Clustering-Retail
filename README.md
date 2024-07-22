@@ -3,6 +3,9 @@
 ## Project Overview
 This project focuses on customer segmentation for a retail startup in the clothing industry. By leveraging Recency, Frequency, and Monetary (RFM) analysis and clustering algorithms, we aim to identify distinct customer segments and provide actionable insights into their purchasing behavior. These insights can help the business tailor marketing strategies, improve customer engagement, and boost overall sales.
 
+<img width="698" alt="Screenshot 2024-07-22 at 11 17 10 AM" src="https://github.com/user-attachments/assets/f768e612-c51b-4aef-919a-d3060ff70425">
+
+
 ## Introduction
 Customer segmentation is a crucial aspect of marketing strategy, allowing businesses to understand their customer base better and target different segments with tailored approaches. This project employs RFM analysis combined with clustering techniques to categorize customers based on their purchasing behavior in the clothing category.
 
