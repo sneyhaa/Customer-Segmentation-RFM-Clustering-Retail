@@ -49,10 +49,11 @@ Assign scores to each customer based on their recency, frequency, and monetary v
 ### Segment Profiling
 Interpret the characteristics of each cluster to understand customer behavior:
 
-- High-Value Customers: High 'Monetary' and 'Frequency' values, low 'Recency'.
-- Loyal Customers: High 'Frequency' and moderate 'Monetary' values.
-- At-Risk Customers: High 'Recency' values but previously had high 'Monetary' and 'Frequency' values.
-- New Customers: Low 'Frequency' and 'Monetary' values, low 'Recency'.
+- **Infrequent Low Spenders**
+- **Infrequent Moderate Spenders**
+- **Occasional High Spenders**
+- **Infrequent High Spenders**
+- **High-Value Loyal Customers**
 
 ### Results
 The clustering results reveal distinct customer segments with unique purchasing behaviors. These insights help in identifying high-value customers, loyal customers, at-risk customers, and new customers.
