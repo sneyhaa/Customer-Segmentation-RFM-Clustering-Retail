@@ -39,9 +39,9 @@ Methodology
 Assign scores to each customer based on their recency, frequency, and monetary values according to defined intervals.
 
 ## Clustering
-Scaling: Apply Standard scaling to the RFM values.
-Algorithm: Use K-Means clustering to segment customers into different groups.
-Segment Profiling
+- Scaling: Apply Standard scaling to the RFM values.
+- Algorithm: Use K-Means clustering to segment customers into different groups.
+## Segment Profiling
 Interpret the characteristics of each cluster to understand customer behavior:
 
 High-Value Customers: High 'Monetary' and 'Frequency' values, low 'Recency'.
