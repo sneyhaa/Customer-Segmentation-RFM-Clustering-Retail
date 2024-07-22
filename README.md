@@ -28,27 +28,30 @@ Shipping_Method
 Payment_Method
 Order_Status
 products
-Methodology
 
-## Data Preprocessing
+## Methodology
+
+### Data Preprocessing
 - Filtering Data: Extract transactions related to the 'Clothing' product category.
 - Handling Missing Values: Address missing values in the dataset.
 - Feature Engineering: Compute Recency, Frequency, and Monetary values for each customer.
 
-## RFM Analysis
+### RFM Analysis
 Assign scores to each customer based on their recency, frequency, and monetary values according to defined intervals.
 
-## Clustering
+### Clustering
 - Scaling: Apply Standard scaling to the RFM values.
 - Algorithm: Use K-Means clustering to segment customers into different groups.
-## Segment Profiling
+  
+### Segment Profiling
 Interpret the characteristics of each cluster to understand customer behavior:
 
-High-Value Customers: High 'Monetary' and 'Frequency' values, low 'Recency'.
-Loyal Customers: High 'Frequency' and moderate 'Monetary' values.
-At-Risk Customers: High 'Recency' values but previously had high 'Monetary' and 'Frequency' values.
-New Customers: Low 'Frequency' and 'Monetary' values, low 'Recency'.
-Results
+- High-Value Customers: High 'Monetary' and 'Frequency' values, low 'Recency'.
+- Loyal Customers: High 'Frequency' and moderate 'Monetary' values.
+- At-Risk Customers: High 'Recency' values but previously had high 'Monetary' and 'Frequency' values.
+- New Customers: Low 'Frequency' and 'Monetary' values, low 'Recency'.
+
+### Results
 The clustering results reveal distinct customer segments with unique purchasing behaviors. These insights help in identifying high-value customers, loyal customers, at-risk customers, and new customers.
 
 ## Conclusion
